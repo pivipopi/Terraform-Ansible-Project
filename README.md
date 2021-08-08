@@ -27,7 +27,7 @@ terraform apply -auto-approve                         # 실행
 # 폴더 설명
 - output.tf : 생성한 AWS EC2 인스턴스의 public_ip 속성을 반환한다.
 - providr.tf : 프로바이더 요구사항을 정의해 필요한 프로바이더 및 버전을 지정한다.
-- security-group.tf : 웹 서버 구성 후 접근 확인하기 위한 보안 그룹 리소스 이며, ssh의 22번 포트, wordpress의 변환 포트, mysql의 3306번 포트를 추가한다.
+- security-group.tf : 웹 서버 구성 후 접근 확인하기 위한 보안 그룹 리소스 이며, ssh의 22번 포트, wordpress의 변환 포트를 추가한다.
 - variable.tf : 입력 변수를 정의하기 위한 구성 파일이다.
  
 # 디렉토리 구조
