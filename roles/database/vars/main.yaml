@@ -3,4 +3,3 @@ db:
   name: "wpdb"
   user: "wpadm"
   passwd: "P@ssw0rd"
-  host: "{{ groups['webserver'] }}/32"
